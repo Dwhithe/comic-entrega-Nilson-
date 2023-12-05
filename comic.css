@@ -1,0 +1,775 @@
+/* Assets */
+
+.assets1 {
+    position: relative;
+
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.assets2 {
+    position: relative;
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.assets3 {
+    position: relative;
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.assets4 {
+    position: relative;
+    left: 90%;
+    width: 5rem !important;
+    height: 5rem !important;
+}
+
+/* boton de informacion */
+.boton1 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+}
+
+
+.boton2 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton3 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+}
+
+.boton4 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+
+}
+
+.boton5 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton6 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton7 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton8 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+.boton9 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+}
+
+.boton10 {
+    position: absolute !important;
+    top: 90%;
+    left: 66%;
+
+
+}
+
+
+
+
+
+/* escenario 1 */
+
+.flecha1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6rem;
+    animation: pulsate-fwd 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+@media (max-width:300px) {
+    .flecha1 {
+        width: 30rem;
+    }
+
+    .flecha2 {
+        width: 30rem;
+    }
+
+    .flecha3 {
+        width: 30rem;
+    }
+}
+
+
+@-webkit-keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.oculto {
+    display: none;
+}
+
+
+
+/* fin de la flecha */
+
+.img1-1 {
+    position: relative !important;
+}
+
+.img1-2 {
+    position: absolute !important;
+    top: 7%;
+    height: 30rem;
+    cursor: pointer;
+
+}
+
+.escala-mundo {
+    animation: escala 2s linear forwards;
+}
+
+@keyframes escala {
+    0% {
+
+        transform: scale(1);
+    }
+
+    100% {
+
+        transform: scale(2);
+    }
+}
+
+.img1-3 {
+    position: absolute !important;
+    top: 0%;
+    animation: stars 1.5s linear infinite;
+
+}
+
+@keyframes stars {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+
+/* meteorito escenario 1 */
+.meteorito1 {
+    position: absolute !important;
+    top: 23%;
+    left: 44%;
+
+}
+
+.mover-meteorito {
+    animation: meteorito1 4s linear forwards, meteoroscale 4s linear forwards;
+
+    /*  animation-delay: 1s; */
+}
+
+@keyframes meteorito1 {
+    0% {
+        translate: 10%;
+    }
+
+    100% {
+        translate: -70%;
+
+
+    }
+
+}
+
+@keyframes meteoroscale {
+    100% {
+        transform: scale(0.1);
+
+    }
+}
+
+.cuadrotexto1 {
+    position: absolute;
+    left: 7%;
+    background-color: whitesmoke;
+    height: 10%;
+    width: 85%;
+    padding: 2%;
+    bottom: 10px;
+}
+.oculto1{
+    display: none;
+}
+
+.texto1 {
+    animation-duration: 5s;
+    animation: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+/* escenario 2 */
+
+.flecha2 {
+    position: absolute;
+    top: 67%;
+    left: 43%;
+    width: 6rem;
+    animation: flecha2 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+
+@keyframes flecha2 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.oculto {
+    display: none;
+}
+
+
+
+.img2-1 {
+    position: relative !important;
+}
+
+.meteorito2 {
+    position: absolute !important;
+    top: -5%;
+    left: -22%;
+    cursor: pointer;
+    animation: meteorito2 4s linear forwards;
+    animation-play-state: paused;
+}
+
+.mover-meteorito2 {
+    animation: meteorito2 4s linear forwards, meteoroscale 4s linear forwards;
+    animation-play-state: paused;
+}
+
+@keyframes meteorito2 {
+    0% {
+        translate: 10%;
+        opacity: 0;
+    }
+
+    100% {
+        translate: 80%;
+        opacity: 1;
+    }
+
+}
+
+
+
+/* personaje moviendose */
+
+.personaje2 {
+    position: absolute !important;
+    left: 50%;
+    top: 70%;
+    width: 10% !important;
+    cursor: pointer;
+    animation: personaje2 4s linear forwards;
+    animation-play-state: paused;
+
+}
+
+.mover-personaje2 { 
+    animation: personaje2 4s linear forwards;
+   /*  animation-play-state: paused; */
+   /*  animation-delay: 1s; */
+}
+
+@keyframes personaje2 {
+    0% {
+        transform: translateY(10%);
+        /* translateY: 10%; */
+    }
+
+    100% {
+        transform: translateY(-10%);
+        /* translateY: 60%; */
+    }
+
+}
+
+.jarron2 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.nube {
+    position: absolute !important;
+    top: 0%;
+    animation: 4s linear forwards
+}
+
+
+
+@keyframes nube {
+    0% {
+
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+.cuadrotexto2 {
+    position: absolute;
+    left: 7%;
+    background-color: whitesmoke;
+    height: 28%;
+    padding: 2%;
+    bottom: 10px;
+}
+.oculto2{
+    display: none;
+}
+
+.texto2 {
+    animation-duration: 5s;
+    animation: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.video3 {
+    background: url(./escenarioscodigo/escenario3video/);
+    position: absolute;
+    top: 0%;
+    cursor: pointer;
+    width: 40rem;
+    height: 31rem;
+    max-height: 1080px;
+}
+
+.fondo3 {
+    height: 30rem;
+}
+
+.flecha3 {
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    width: 6rem;
+    animation: pulsate-fwd 1s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+
+@-webkit-keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.oculto {
+    display: none;
+}
+
+.nube3 {
+    position: absolute !important;
+    top: 0%;
+    left: 0%;
+}
+
+.jarron {
+    position: absolute !important;
+    top: 0%;
+    left: 0%;
+}
+
+/* escenario 3 */
+
+.cuadrotexto3 {
+    position: absolute;
+    left: 7%;
+    background-color: whitesmoke;
+    height: 19%;
+    width: 85%;
+    padding: 2%;
+    bottom: 10px;
+    margin: 0 0 0 0;
+}
+
+.oculto3{
+    display: none;
+}
+
+/* escenario 4 */
+
+.img4-1 {
+    position: relative !important;
+}
+
+
+/* METEORITO ESCENA 4 ESCALA */
+
+.meteorito4 {
+    position: absolute !important;
+    top: 0%;
+    cursor: pointer;
+}
+
+.escala-meteorito4 {
+    animation: escala 2s linear forwards;
+}
+
+@keyframes escala {
+    0% {
+
+        transform: scale(1);
+    }
+
+    100% {
+
+        transform: scale(2);
+    }
+}
+
+
+.gusanos {
+    position: absolute !important;
+    top: 0%;
+}
+
+.img4-3 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.cañada {
+    position: absolute !important;
+    top: 0%;
+}
+
+/* escenario 5 */
+.e5 {
+    position: relative !important;
+    top: 0%;
+}
+
+.jarron5 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.nube5 {
+    position: absolute !important;
+    top: 0%;
+}
+
+/* escenario 6 */
+
+.img6-1 {
+    position: relative !important;
+}
+
+.cuadro-info {
+    position: absolute !important;
+    top: 0%;
+}
+
+.puerta6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.palanca {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-pc6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-agua6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.contenedor6 {
+    position: absolute !important;
+    top: 0%;
+}
+
+/* escenario 7 */
+
+.e7 {
+    position: relative !important;
+}
+
+.token7 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.chiko7 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.personaje7 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.arbusto7 {
+    position: absolute !important;
+    top: 0%;
+    left: -2%;
+}
+
+/* escenario 8 */
+.e8 {
+    position: relative !important;
+}
+
+.cascada8-1 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.cascada8-2 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.meteorito8 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.arbusto8 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.cascada8 {
+    position: absolute !important;
+    top: 0%;
+}
+
+
+
+/* escenario 9 */
+
+.e9 {
+    position: relative !important;
+}
+
+.cartel-info9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.puerta9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.palanca9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-pc9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+.mesa-agua9 {
+    position: absolute !important;
+    top: 0%;
+}
+
+/* escenario 10 */
+
+.img10-1 {
+    position: relative !important;
+}
+
+.img10-2 {
+    position: absolute !important;
+    top: 0%;
+}
+
+
+/* AQUI VA EL CUADRO DE TEXTO */
+
+.texto {
+    margin: 50px;
+    padding: 100px;
+    background-color: azure;
+}
+
+.texto1 {
+    position: absolute;
+    top: 0%;
+}
+
+.texto2 {}
+
+.texto3 {
+    margin-right: 35%;
+}
